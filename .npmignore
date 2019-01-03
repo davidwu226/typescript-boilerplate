@@ -1,0 +1,14 @@
+.nyc_output
+coverage
+build
+node_modules
+src
+lib
+npm-debug.log
+yarn-error.log
+Makefile
+*.map
+.vscode
+tsconfig.json
+.gitmodules
+.eslintrc.js
