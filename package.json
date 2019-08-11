@@ -1,6 +1,6 @@
 {
-  "name": "dancing-qr-codes",
-  "version": "1.0.0",
+  "name": "typescript-boilerplate",
+  "version": "0.0.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "license": "MIT",
@@ -10,7 +10,7 @@
     "run": "npm run build; node dist"
   },
   "devDependencies": {
-    "source-map-support": "^0.5.9",
-    "typescript": "^3.2.2"
+    "source-map-support": "^0.5.13",
+    "typescript": "^3.5.3"
   }
 }
