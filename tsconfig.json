@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2016",
+    "target": "es2018",
     "module": "commonjs",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -8,6 +8,10 @@
     "outDir": "./dist",
     "strict": false,
     "sourceMap": true,
+    "lib": [
+      "es2018"
+    ],
+    "moduleResolution": "node"
   },
   "include": [
     "src",
