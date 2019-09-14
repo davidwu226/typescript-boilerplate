@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "doc": "typedoc src",
@@ -13,7 +13,7 @@
   "devDependencies": {
     "source-map-support": "^0.5.13",
     "typedoc": "^0.15.0",
-    "typescript": "^3.6.2"
+    "typescript": "^3.6.3"
   },
   "dependencies": {}
 }
