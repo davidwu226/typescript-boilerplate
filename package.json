@@ -13,7 +13,7 @@
   "devDependencies": {
     "source-map-support": "^0.5.13",
     "typedoc": "^0.15.0",
-    "typescript": "^3.6.3"
+    "typescript": "^3.7.5"
   },
   "dependencies": {}
 }
