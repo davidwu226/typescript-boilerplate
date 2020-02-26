@@ -11,6 +11,7 @@
     "run": "npm run build; node dist"
   },
   "devDependencies": {
+    "@types/node": "^13.7.5",
     "source-map-support": "^0.5.16",
     "ts-node": "^8.6.2",
     "typedoc": "^0.16.10",
