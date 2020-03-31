@@ -3,6 +3,7 @@ coverage
 build
 node_modules
 src
+__tests__
 lib
 npm-debug.log
 yarn-error.log
@@ -10,5 +11,8 @@ Makefile
 *.map
 .vscode
 tsconfig.json
+tsconfig.release.json
+jest.config.js
 .gitmodules
 .eslintrc.js
+.editorconfig

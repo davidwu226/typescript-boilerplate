@@ -63,3 +63,6 @@ typings/
 
 # Other garbage files.
 .DS_Store
+
+# tmp
+tmp
