@@ -12,6 +12,7 @@
       "program": "${workspaceFolder}/src/test.ts",
       "cwd": "${workspaceFolder}",
       "protocol": "inspector",
+      "preLaunchTask": "tsc: build - tsconfig.json",
       "outFiles": [
         "${workspaceFolder}/dist/**/*.js"
       ]

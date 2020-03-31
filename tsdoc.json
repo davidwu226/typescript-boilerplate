@@ -1,4 +1,5 @@
 {
   "out": "doc",
-  "readme": "README.md"
+  "readme": "README.md",
+  "exclude": "**/*+(index|.spec|.e2e).ts"
 }

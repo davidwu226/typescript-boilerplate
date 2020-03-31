@@ -60,3 +60,6 @@ typings/
 
 # next.js build output
 .next
+
+# Other garbage files.
+.DS_Store
