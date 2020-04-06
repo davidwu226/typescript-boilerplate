@@ -8,7 +8,7 @@
     "clean": "rm -rf coverage build tmp",
     "build": "tsc -p tsconfig.release.json",
     "build:watch": "tsc -w -p tsconfig.release.json",
-    "doc": "typedoc --exclude \"**/*+(index|.spec|.e2e).ts\" src",
+    "doc": "typedoc --plugin typedoc-plugin-markdown --exclude \"**/*+(index|.spec|.e2e).ts\" src",
     "prepublishOnly": "npm run build",
     "run": "npm run build; node dist",
     "test": "jest --coverage",
@@ -22,6 +22,7 @@
     "ts-jest": "^25.3.0",
     "ts-node": "^8.8.1",
     "typedoc": "^0.17.3",
+    "typedoc-plugin-markdown": "^2.2.17",
     "typescript": "^3.8.3"
   },
   "dependencies": {
