@@ -17,4 +17,10 @@ module.exports = {
     'src/**/*.{ts,tsx,js,jsx}',
     '!src/**/*.d.ts',
   ],
+  testPathIgnorePatterns: [
+    "/node_modules/",
+    "/dist/",
+    "/__tests__/utils.ts",
+  ],
+  coverageReporters: ["text", "html"],
 }
